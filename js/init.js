@@ -1,5 +1,4 @@
 !(function (e) {
-    
  skel.init(
   {
    reset: "full",
