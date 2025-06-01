@@ -38,21 +38,12 @@
 .fa-linkedin:before {
  content: "\f0e1";
 }
-html {
- border: 0;
- font: inherit;
- margin: 0;
- padding: 0;
- vertical-align: baseline;
-}
 body {
  -webkit-text-size-adjust: none;
  background: #222;
  border: 0;
- color: #555;
  font-family: "Open Sans", sans-serif !important;
  font-weight: 300;
- font: inherit;
  line-height: 1.65em;
  margin: 0;
  padding: 0;
@@ -95,13 +86,6 @@ body {
  background: #fff;
 }
 a {
- margin: 0;
- padding: 0;
- border: 0;
- font: inherit;
- vertical-align: baseline;
-}
-div {
  margin: 0;
  padding: 0;
  border: 0;
@@ -166,9 +150,7 @@ section {
 }
 span {
  margin: 0;
- padding: 0;
  border: 0;
- font: inherit;
  vertical-align: baseline;
 }
 ul {
@@ -791,6 +773,9 @@ input[type="submit"].small {
 }
 /* MOBILE */
 @media (max-aspect-ratio: 2/3) {
+ body {
+  font-size: 200% !important;
+ }
  .\39 u {
   width: 75%;
  }
@@ -973,36 +958,8 @@ input[type="submit"].small {
  .w3 p {
   font-size: 1.6em;
  }
- #header {
-  color: #fff;
-  height: 4em;
-  background: rgba(0, 0, 0, 0.5);
- }
- #banner {
-  padding: 6em 0 3em 0;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
- }
  #banner .container {
   padding: 0 8em;
- }
- #banner h2 {
-  display: inline-block;
-  padding: 0.5em 0.3em;
-  background: #82b440;
-  font-size: 3em;
-  font-weight: 400;
- }
- #banner span {
-  display: block;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-size: 1.6em;
-  font-weight: 300;
- }
- #banner span {
-  padding: 1em 0;
  }
  #footer {
   padding: 3em 0 0.5em 0;
@@ -1072,9 +1029,7 @@ input[type="submit"].small {
   backface-visibility: hidden;
   background: #000;
   display: block;
-  height: 44px;
   left: 0px;
-  line-height: 44px;
   position: fixed;
   top: 0px;
   transition: -webkit-transform 0.25s ease-in-out;
@@ -1085,7 +1040,6 @@ input[type="submit"].small {
   display: block;
   position: relative;
   letter-spacing: 2px;
-  line-height: 44px;
   font-size: 1.3em;
   font-weight: 700;
   text-align: center;
@@ -1094,7 +1048,6 @@ input[type="submit"].small {
   z-index: 1;
  }
  #titleBar .toggle {
-  height: 60px;
   left: 0;
   position: absolute;
   top: 0;
@@ -1109,45 +1062,29 @@ input[type="submit"].small {
   font-style: normal;
   font-weight: 400;
   text-transform: none !important;
- }
- #titleBar .toggle:before {
   background: 0 0;
   color: #fff;
   display: block;
-  height: 44px;
-  line-height: 44px;
   text-align: center;
   width: 44px;
  }
  #titleBar .toggle:after {
   content: "";
   display: block;
-  height: 13px;
   left: 10px;
   opacity: 0.75;
   position: absolute;
   top: 15px;
   width: 20px;
  }
- #banner {
-  padding: 6em 0 3em 0;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
- }
  #banner .container {
   padding: 0 1em;
  }
  #banner h2 {
   padding: 0.5em 0.5em;
-  font-size: 1.8em;
  }
- #banner p,
- #banner span {
+ #banner p {
   font-size: 1.1em;
- }
- #banner span {
-  padding: 1em 0;
  }
  header.major h2 {
   font-size: 1.6em;
@@ -1230,10 +1167,5 @@ input[type="submit"].small {
  }
  .row.flush {
   margin-left: 0px !important;
- }
- .container {
-  max-width: none !important;
-  min-width: 0 !important;
-  width: 90% !important;
  }
 }
