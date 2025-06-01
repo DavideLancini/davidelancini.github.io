@@ -39,15 +39,10 @@
  content: "\f0e1";
 }
 body {
- -webkit-text-size-adjust: none;
  background: #222;
- border: 0;
  font-family: "Open Sans", sans-serif !important;
- font-weight: 300;
  line-height: 1.65em;
  margin: 0;
- padding: 0;
- vertical-align: baseline;
 }
 .w1 {
  background-size: cover;
@@ -173,12 +168,6 @@ ul {
  list-style: none;
 }
 * {
- box-sizing: border-box;
-}
-:after {
- box-sizing: border-box;
-}
-:before {
  box-sizing: border-box;
 }
 .container {
@@ -892,7 +881,6 @@ input[type="submit"].small {
   line-height: 190%;
  }
  ul.special-icons .fa {
-  float: left;
   display: inline-block;
   padding-right: 1em;
   font-size: 1.4em;
@@ -1026,15 +1014,10 @@ input[type="submit"].small {
   display: none;
  }
  #titleBar {
-  backface-visibility: hidden;
   background: #000;
-  display: block;
-  left: 0px;
   position: fixed;
   top: 0px;
-  transition: -webkit-transform 0.25s ease-in-out;
   width: 100%;
-  z-index: 10004;
  }
  #titleBar .title {
   display: block;
@@ -1048,11 +1031,7 @@ input[type="submit"].small {
   z-index: 1;
  }
  #titleBar .toggle {
-  left: 0;
   position: absolute;
-  top: 0;
-  width: 80px;
-  z-index: 2;
  }
  #titleBar .toggle:before {
   content: "\f0c9";
