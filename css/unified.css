@@ -2256,7 +2256,7 @@ textarea {
 }
 
 /* MOBILE */
-@media (max-width: 768px) {
+@media (max-aspect-ratio: 2/3) {
  .desktop {
   display: none;
  }
