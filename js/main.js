@@ -10,15 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
  }
 });
 !(function (e, t) {
- "object" == typeof module && "object" == typeof module.exports
-  ? (module.exports = e.document
-     ? t(e, !0)
-     : function (e) {
-        if (!e.document)
-         throw new Error("jQuery requires a window with a document");
-        return t(e);
-       })
-  : t(e);
+ "object" == typeof module && "object" == typeof module.exports;
+ t(e);
 })("undefined" != typeof window ? window : this, function (e, t) {
  var n = [],
   r = n.slice,
@@ -58,9 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
    constructor: p,
    selector: "",
    length: 0,
-   toArray: function () {
-    return r.call(this);
-   },
    get: function (e) {
     return null != e
      ? 0 > e
@@ -95,9 +85,6 @@ document.addEventListener("DOMContentLoaded", () => {
     var t = this.length,
      n = +e + (0 > e ? t : 0);
     return this.pushStack(n >= 0 && t > n ? [this[n]] : []);
-   },
-   end: function () {
-    return this.prevObject || this.constructor(null);
    },
    push: o,
    sort: n.sort,
@@ -137,9 +124,6 @@ document.addEventListener("DOMContentLoaded", () => {
   p.extend({
    expando: "jQuery" + (f + Math.random()).replace(/\D/g, ""),
    isReady: !0,
-   error: function (e) {
-    throw new Error(e);
-   },
    noop: function () {},
    isFunction: function (e) {
     return "function" === p.type(e);
