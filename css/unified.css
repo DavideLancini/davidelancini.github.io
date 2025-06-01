@@ -1,3 +1,9 @@
+.desktop {
+ display: block;
+}
+.mobile {
+ display: none;
+}
 a,
 abbr,
 acronym,
@@ -127,7 +133,6 @@ body {
 :after,
 :before {
  -moz-box-sizing: border-box;
- -webkit-box-sizing: border-box;
  box-sizing: border-box;
 }
 .container {
@@ -2250,7 +2255,14 @@ textarea {
  font-size: 11pt;
 }
 
+/* MOBILE */
 @media (max-width: 768px) {
+ .desktop {
+  display: none;
+ }
+ .mobile {
+  display: block;
+ }
  a,
  abbr,
  acronym,
@@ -4763,6 +4775,12 @@ textarea {
   font-size: 11pt;
  }
  #skel-layers-wrapper {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  backface-visibility: hidden;
+  transition: -webkit-transform 0.25s ease-in-out;
   padding-top: 44px;
  }
  p {
@@ -5123,3 +5141,11 @@ textarea {
   display: none !important;
  }
 }
+
+/* 
+skel-layer-wrapper
+z-index: 10001; transform: translate(275px, 0px);
+
+
+
+*/
