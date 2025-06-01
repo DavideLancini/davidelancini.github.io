@@ -1,3 +1,15 @@
+@font-face {
+ font-family: FontAwesome;
+ src: url(../fonts/fontawesome-webfont.eot?v=4.0.3);
+ src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.0.3)
+   format("embedded-opentype"),
+  url(../fonts/fontawesome-webfont.woff?v=4.0.3) format("woff"),
+  url(../fonts/fontawesome-webfont.ttf?v=4.0.3) format("truetype"),
+  url(../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular)
+   format("svg");
+ font-weight: 400;
+ font-style: normal;
+}
 .desktop {
  display: block;
 }
@@ -132,7 +144,6 @@ body {
 *,
 :after,
 :before {
- -moz-box-sizing: border-box;
  box-sizing: border-box;
 }
 .container {
@@ -282,18 +293,6 @@ body {
 }
 .row.double {
  margin-left: -80px;
-}
-@font-face {
- font-family: FontAwesome;
- src: url(../fonts/fontawesome-webfont.eot?v=4.0.3);
- src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.0.3)
-   format("embedded-opentype"),
-  url(../fonts/fontawesome-webfont.woff?v=4.0.3) format("woff"),
-  url(../fonts/fontawesome-webfont.ttf?v=4.0.3) format("truetype"),
-  url(../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular)
-   format("svg");
- font-weight: 400;
- font-style: normal;
 }
 .fa {
  display: inline-block;
@@ -2263,291 +2262,6 @@ textarea {
  .mobile {
   display: block;
  }
- a,
- abbr,
- acronym,
- address,
- applet,
- article,
- aside,
- audio,
- b,
- big,
- blockquote,
- body,
- canvas,
- caption,
- center,
- cite,
- code,
- dd,
- del,
- details,
- dfn,
- div,
- dl,
- dt,
- em,
- embed,
- fieldset,
- figcaption,
- figure,
- footer,
- form,
- h1,
- h2,
- h3,
- h4,
- h5,
- h6,
- header,
- hgroup,
- html,
- i,
- iframe,
- img,
- ins,
- kbd,
- label,
- legend,
- li,
- mark,
- menu,
- nav,
- object,
- ol,
- output,
- p,
- pre,
- q,
- ruby,
- s,
- samp,
- section,
- small,
- span,
- strike,
- strong,
- sub,
- summary,
- sup,
- table,
- tbody,
- td,
- tfoot,
- th,
- thead,
- time,
- tr,
- tt,
- u,
- ul,
- var,
- video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
- }
- article,
- aside,
- details,
- figcaption,
- figure,
- footer,
- header,
- hgroup,
- menu,
- nav,
- section {
-  display: block;
- }
- body {
-  line-height: 1;
- }
- ol,
- ul {
-  list-style: none;
- }
- blockquote,
- q {
-  quotes: none;
- }
- blockquote:after,
- blockquote:before,
- q:after,
- q:before {
-  content: "";
-  content: none;
- }
- table {
-  border-collapse: collapse;
-  border-spacing: 0;
- }
- body {
-  -webkit-text-size-adjust: none;
- }
- *,
- :after,
- :before {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
- }
- body {
-  min-width: 1200px;
- }
- .container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
- }
- .container.small {
-  width: 900px;
- }
- .container.big {
-  width: 100%;
-  max-width: 1500px;
-  min-width: 1200px;
- }
- .\31 2u {
-  width: 100%;
- }
- .\31 1u {
-  width: 91.6666666667%;
- }
- .\31 0u {
-  width: 83.3333333333%;
- }
- .\39 u {
-  width: 75%;
- }
- .\38 u {
-  width: 66.6666666667%;
- }
- .\37 u {
-  width: 58.3333333333%;
- }
- .\36 u {
-  width: 50%;
- }
- .\35 u {
-  width: 41.6666666667%;
- }
- .\34 u {
-  width: 33.3333333333%;
- }
- .\33 u {
-  width: 25%;
- }
- .\32 u {
-  width: 16.6666666667%;
- }
- .\31 u {
-  width: 8.3333333333%;
- }
- .\-11u {
-  margin-left: 91.6666666667%;
- }
- .\-10u {
-  margin-left: 83.3333333333%;
- }
- .\-9u {
-  margin-left: 75%;
- }
- .\-8u {
-  margin-left: 66.6666666667%;
- }
- .\-7u {
-  margin-left: 58.3333333333%;
- }
- .\-6u {
-  margin-left: 50%;
- }
- .\-5u {
-  margin-left: 41.6666666667%;
- }
- .\-4u {
-  margin-left: 33.3333333333%;
- }
- .\-3u {
-  margin-left: 25%;
- }
- .\-2u {
-  margin-left: 16.6666666667%;
- }
- .\-1u {
-  margin-left: 8.3333333333%;
- }
- .row > * {
-  float: left;
- }
- .row:after {
-  content: "";
-  display: block;
-  clear: both;
-  height: 0;
- }
- .row:first-child > * {
-  padding-top: 0 !important;
- }
- .row > * {
-  padding-left: 40px;
- }
- .row + .row > * {
-  padding: 40px 0 0 40px;
- }
- .row {
-  margin-left: -40px;
- }
- .row.flush > * {
-  padding-left: 0;
- }
- .row + .row.flush > * {
-  padding: 0;
- }
- .row.flush {
-  margin-left: 0;
- }
- .row.quarter > * {
-  padding-left: 10px;
- }
- .row + .row.quarter > * {
-  padding: 10px 0 0 10px;
- }
- .row.quarter {
-  margin-left: -10px;
- }
- .row.half > * {
-  padding-left: 20px;
- }
- .row + .row.half > * {
-  padding: 20px 0 0 20px;
- }
- .row.half {
-  margin-left: -20px;
- }
- .row.oneandhalf > * {
-  padding-left: 60px;
- }
- .row + .row.oneandhalf > * {
-  padding: 60px 0 0 60px;
- }
- .row.oneandhalf {
-  margin-left: -60px;
- }
- .row.double > * {
-  padding-left: 80px;
- }
- .row + .row.double > * {
-  padding: 80px 0 0 80px;
- }
- .row.double {
-  margin-left: -80px;
- }
-
  @-ms-viewport {
   width: device-width;
  }
@@ -2795,18 +2509,6 @@ textarea {
 
  .row:first-child > * {
   padding-top: 0 !important;
- }
- @font-face {
-  font-family: FontAwesome;
-  src: url(../fonts/fontawesome-webfont.eot?v=4.0.3);
-  src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.0.3)
-    format("embedded-opentype"),
-   url(../fonts/fontawesome-webfont.woff?v=4.0.3) format("woff"),
-   url(../fonts/fontawesome-webfont.ttf?v=4.0.3) format("truetype"),
-   url(../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular)
-    format("svg");
-  font-weight: 400;
-  font-style: normal;
  }
  .fa {
   display: inline-block;
@@ -4839,9 +4541,17 @@ textarea {
   display: none;
  }
  #titleBar {
+  backface-visibility: hidden;
   background: #000;
+  display: block;
   height: 44px;
+  left: 0px;
   line-height: 44px;
+  position: fixed;
+  top: 0px;
+  transition: -webkit-transform 0.25s ease-in-out;
+  width: 100%;
+  z-index: 10004;
  }
  #titleBar .title {
   display: block;
@@ -4882,7 +4592,6 @@ textarea {
   width: 44px;
  }
  #titleBar .toggle:after {
-  background: url(images/toggle.svg) 0 0 no-repeat;
   content: "";
   display: block;
   height: 13px;
