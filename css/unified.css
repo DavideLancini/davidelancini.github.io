@@ -4210,17 +4210,6 @@ textarea {
  .wrapper {
   padding: 4em 0 2em 0;
  }
- .wrapper.style1 {
-  padding: 0;
-  background: #222 url(../images/banner.jpg) no-repeat;
-  background-size: cover;
- }
- .wrapper.style2 {
-  background: #f2f2f2;
- }
- .wrapper.style2 .major {
-  text-align: left !important;
- }
  .wrapper.style2 .major h2 {
   display: block;
   margin-bottom: 0.7em;
@@ -4257,9 +4246,6 @@ textarea {
  }
  .wrapper.style3 p {
   font-size: 1.6em;
- }
- .wrapper.style4 {
-  background: #fff;
  }
  .wrapper.style5 {
   background: #82b440;
@@ -4506,8 +4492,8 @@ textarea {
   font-weight: 600;
  }
  .wrapper.style2 {
-  background: #f2f2f2;
   text-align: center;
+  padding-bottom: 5em;
  }
  .wrapper.style2 .major {
   text-align: center !important;
@@ -4667,9 +4653,6 @@ textarea {
  }
  .wrapper {
   padding: 4em 0 2em 0;
- }
- .wrapper.style2 {
-  padding-bottom: 5em;
  }
  .wrapper.style4 p {
   margin-bottom: 1em;
