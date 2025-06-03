@@ -107,6 +107,7 @@ h1 {
  margin: 0 0 1.33em 0;
  padding: 0.5em;
  text-align: center;
+ word-break: break-word;
 }
 .f {
  display: flex;
@@ -194,7 +195,7 @@ img {
 
 @media (max-aspect-ratio: 2/3) {
  body {
-  font-size: 150% !important;
+  font-size: 1.5em;
  }
  header {
   padding-left: 0;
@@ -211,8 +212,8 @@ img {
  }
  .line {
   background-color: #fff;
-  height: 14.28%;
-  margin: 14.28% 20%;
+  height: 12.5%;
+  margin: 15%;
  }
  a {
   display: block;
