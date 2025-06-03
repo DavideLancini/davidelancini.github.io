@@ -61,9 +61,6 @@ header {
  top: 0;
  width: 100%;
 }
-button {
- display: none;
-}
 a {
  color: #fff;
  display: inline-block;
@@ -71,6 +68,12 @@ a {
  letter-spacing: 2px;
  line-height: 4em;
  text-decoration: none;
+}
+#mt {
+ display: none;
+}
+label {
+ display: none;
 }
 h2 {
  font-size: 2em;
@@ -192,18 +195,35 @@ h4 {
  header {
   padding-left: 0;
  }
- button {
+ label {
   aspect-ratio: 1/1;
   display: block;
   height: 100%;
   left: 0;
+  margin: 0;
+  padding: 0;
   position: absolute;
   top: 0;
+ }
+ .line {
+  background-color: #fff;
+  height: 14.28%;
+  margin: 14.28% 20%;
  }
  a {
   display: block;
  }
  nav {
   display: none;
+  position: absolute;
+  top: 4em;
+  left: 0;
+  background-color: #222;
+ }
+ nav > a {
+  font-size: 2em;
+ }
+ #mt:checked + label + nav {
+  display: block;
  }
 }
