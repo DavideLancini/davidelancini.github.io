@@ -102,11 +102,11 @@ section {
  background: #222 url(../images/banner.jpg) no-repeat;
 }
 h1 {
- background: #140;
  display: inline-block;
  font-size: 3em;
- padding: 0.5em;
  margin: 0 0 1.33em 0;
+ padding: 0.5em;
+ text-align: center;
 }
 .f {
  display: flex;
