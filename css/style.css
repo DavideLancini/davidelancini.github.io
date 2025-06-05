@@ -190,9 +190,6 @@ img {
 }
 
 @media (max-aspect-ratio: 2/3) {
- body {
-  font-size: 1.5em;
- }
  header {
   padding-left: 0;
  }
