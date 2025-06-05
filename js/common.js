@@ -1,0 +1,9 @@
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelector('header').innerHTML = `<a href=index.html><h2>DEV.</h2></a><input type=checkbox id=mt><label for=mt><div class=line></div><div class=line></div><div class=line></div></label><nav>
+  <a href=developer.html>DEVELOPER</a>
+  <a href=iot.html>IOT</a>
+  <a href=marathon.html>MARATHON</a>
+  <a href=photography.html>PHOTOGRAPHY</a>
+  </nav>`;
+  document.querySelector('footer').innerHTML = `<hr><h2>Contact</h2><h3>COME ALONG WITH ME</h3><ul><li><a href=https://facebook.com/davidelenc class=facebook></a></li><li><a href=https://twitter.com/davidelenc class=twitter></a></li><li><a href=https://linkedin.com/in/davide-lancini-111997163/ class=linkedin></a></li></ul><hr><h4>MADE BY LANCINI DAVIDE</h4>`;
+});
