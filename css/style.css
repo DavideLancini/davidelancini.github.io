@@ -94,12 +94,12 @@ h3 {
 }
 p {
  border: 0;
- font-size: 1em;
+ font-size: 16px;
  font: inherit;
  padding: 0;
  vertical-align: baseline;
- margin: 0 0 2em;
- line-height: 1.8em;
+ margin: 0 0 32px 0;
+ line-height: 28px;
  text-align: left;
 }
 footer {
@@ -111,26 +111,25 @@ hr {
  background-color: #140;
  border-width: 0;
  color: #140;
- height: 0.3em;
- margin: 0 0 1em;
+ height: 5px;
+ margin: 0 0 16px 0;
 }
 li {
  display: inline-block;
- line-height: 1em;
- padding: 0.5em 1em;
+ line-height: 16px;
+ padding: 8px 16px;
 }
 li:first-child {
  padding-left: 0;
 }
 li a {
- font-size: 2em;
+ font-size: 32px;
  display: inline-block;
- font-family: FontAwesome;
  font-style: normal;
  line-height: 1;
 }
 h4 {
- font-size: 1.2em;
+ font-size: 19px;
  margin: 0;
 }
 article {
@@ -152,18 +151,17 @@ th {
 .skills-grid {
  display: grid;
  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
- gap: 1em;
- padding: 1em;
+ gap: 16px;
+ padding: 16px;
 }
 .skill-box {
  background: #140;
- padding: 1em;
- border-radius: 4px;
+ padding: 16px;
+ border-radius: 16px;
  text-align: center;
- transition: transform 0.2s;
 }
 .skill-box:hover {
- transform: translateY(-2px);
+ background: #360;
 }
 @media (max-aspect-ratio: 2/3) {
  header {
