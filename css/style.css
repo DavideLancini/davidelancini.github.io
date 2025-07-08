@@ -30,14 +30,14 @@ label {
  display: none;
 }
 h2 {
- font-size: 2em;
+ font-size: 32px;
  letter-spacing: 1px;
  margin: 0;
  text-align: center;
 }
 nav {
  font: inherit;
- padding-right: 4em;
+ padding-right: 64px;
  position: absolute;
  right: 0;
  top: 0;
@@ -46,22 +46,22 @@ nav > a {
  margin-left: 16px;
 }
 section {
- padding: 4em;
+ padding: 64px;
  margin: 0;
  text-align: center;
 }
 .banner {
  background-image: url(../images/banner.jpg);
- padding-top: 8em;
+ padding-top: 128px;
  background-size: cover;
  background-position: center;
  background-repeat: no-repeat;
 }
 h1 {
  display: inline-block;
- font-size: 3em;
- margin: 0 0 1.33em;
- padding: 0.5em;
+ font-size: 48px;
+ margin: 0 0 64px 0;
+ padding: 24px;
  text-align: center;
  word-break: break-word;
 }
@@ -74,13 +74,13 @@ h1 {
 }
 h3 {
  border: 0;
- font-size: 1.5em;
+ font-size: 24px;
  text-decoration: none;
  vertical-align: baseline;
 }
 .p40 {
  width: 40%;
- font-size: 2em;
+ font-size: 32px;
 }
 .g {
  background: #140;
@@ -103,8 +103,8 @@ p {
  text-align: left;
 }
 footer {
- margin: 0 4em;
- padding-bottom: 1em;
+ margin: 0 64px;
+ padding-bottom: 16px;
  text-align: center;
 }
 hr {
@@ -129,22 +129,13 @@ li a {
  font-style: normal;
  line-height: 1;
 }
-.twitter:before {
- content: "\f099";
-}
-.facebook:before {
- content: "\f09a";
-}
-.linkedin:before {
- content: "\f0e1";
-}
 h4 {
  font-size: 1.2em;
  margin: 0;
 }
 article {
  text-align: center;
- padding: 4em;
+ padding: 64px;
 }
 img {
  width: 100%;
